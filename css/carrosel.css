@@ -1,0 +1,12 @@
+.carros
+{
+    border-top: 2px  solid rgb(255, 255, 255);
+    border-bottom: 2px  solid rgb(255, 255, 255);
+    padding-bottom: 5%;
+
+}
+.carros img
+{
+    margin-left:95px;
+    padding-top: 20px;
+}

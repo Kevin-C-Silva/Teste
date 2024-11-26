@@ -1,0 +1,69 @@
+.abri
+{
+    width: 0%;
+    height: 100%;
+    background:linear-gradient(to bottom left, rgb(124, 22, 128),rgb(145, 145, 145)) ;
+    z-index: 9;
+    left: 0;
+    top:0;
+    overflow-x:hidden;
+    transition: all 0.5s;
+    position:fixed;
+    
+    /* Overflow-x:Hidden; (esconde o fundo e não o deixa interagir com o cenário)
+    Z-index:9; garante o espaçamento entre as áreas
+    */    
+}
+.ajusm
+{
+    display: block;
+    position: relative;
+    background: linear-gradient(to bottom left, rgb(124, 22, 128),rgb(145, 145, 145));
+}
+.ajusm li
+{
+    list-style: url(../imagens/icons8-motocicleta-30.png);
+    padding-top: 4%;
+}
+.ajusm a
+{
+    font-size: 4.3vw;
+    font-style: italic;
+    font-family: sans-serif;
+    text-decoration:none;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    border: 0px solid gray;
+    text-decoration: underline rgb(1,1,1);
+}
+
+.button1
+{
+    border: 10px unset rgb(117, 117, 117);
+    border-radius: 100%;
+    position:fixed;
+    padding-top: 30px;
+    padding-left: 10px;
+    visibility: visible;
+    position: fixed;
+    left: 410px;
+}  
+.button1 img
+{
+    width: 60px;
+    height: 60px;
+}
+.button_1
+{
+    border: 10px unset rgb(117, 117, 117);
+    border-radius: 100%;
+    position:relative;
+    padding-top: 75px;
+    padding-left: 40px;
+    visibility: hidden;
+}
+.button_1 img
+{
+    width: 60px;
+    height: 60px;
+}
